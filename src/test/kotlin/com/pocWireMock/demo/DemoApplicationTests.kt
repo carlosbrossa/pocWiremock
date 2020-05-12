@@ -15,10 +15,18 @@ class DemoApplicationTests {
 	lateinit var exampleController : ExampleController
 
 	@Test
-	fun contextLoads() {
+	fun hip() {
 
 		var result = exampleController.helloString()
 		Assertions.assertEquals(result, "hop")
+
+	}
+
+	@Test
+	fun shayShayTest(){
+
+		var result = exampleController.shayShaySay()
+
 
 	}
 
